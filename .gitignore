@@ -8,5 +8,6 @@
 .coverage
 .tox
 *.egg-info/*
+*.swp
 docs/_build/*
 dist/*
