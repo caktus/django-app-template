@@ -1,4 +1,5 @@
 {% if False %}
+
 django-app-template
 ========================
 This is a template for creating a new reusable application for Django.
@@ -13,6 +14,7 @@ To start a new app with this template::
     django-admin.py startapp --template=https://github.com/caktus/django-app-template/zipball/master --extension=py,rst,in <app_name>
 
 {% endif %}
+
 {{ app_name }}
 ========================
 
