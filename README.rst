@@ -13,6 +13,13 @@ To start a new app with this template::
     pip install django>=1.4
     django-admin.py startapp --template=https://github.com/caktus/django-app-template/zipball/master --extension=py,rst,in <app_name>
 
+.. note::
+
+    This template uses defaults and best practices used at Caktus Consulting Group. If you intend to make
+    use of this template for your own purposes you will need to strip out many of the references to Caktus
+    in the documentation, packaging and license information. For a more general application template you
+    can use https://github.com/mlavin/django-app-template instead.
+
 {% endif %}
 
 {{ app_name }}
