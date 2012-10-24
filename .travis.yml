@@ -11,4 +11,4 @@ install:
 script: python setup.py test
 branches:
   only:
-    - masterpy
+    - master
